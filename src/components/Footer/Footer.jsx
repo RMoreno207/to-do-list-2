@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import CurrentWeather from './CurrentWeather';
 
 class Footer extends Component {
   render() {
-    return <div>Footer</div>;
+    return <footer><CurrentWeather /></footer>;
   }
 }
 

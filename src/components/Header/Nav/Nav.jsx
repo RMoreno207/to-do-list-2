@@ -1,8 +1,17 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-class Nav extends Component {
+export class Nav extends Component {
   render() {
-    return <div>Nav</div>;
+    return <>
+      <nav className="nav-bar">
+
+        <Link to="/">Home</Link>
+        <Link to="/todo_list">TODO</Link>
+        <Link to="/weather_list">Weather</Link>
+
+      </nav>
+    </>
   }
 }
 
